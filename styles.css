@@ -73,9 +73,39 @@ nav {
 
 
 
+/*  Hero Section  *********/
+.hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+}
+
+.hero__text--container {
+    max-width: 500px;
+    background: var(--pure-black);
+    padding: 20px;
+}
+
+
+.hero__description {
+    color: var(--pure-white);
+}
+
+.hero__headline {
+    color: var(--pure-white);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: clamp(1rem, 2vw, 3.5rem);
+}
+
+
+
+
+
+
+
 
 /* Responsive nav ************/
-@media (max-width: 815px) {
+@media (max-width: 825px) {
     nav {
         padding-left: 20px;
         position: relative;
@@ -86,20 +116,15 @@ nav {
         top: 0;
         right: 0;
         left: 0;
-
         padding-top: 90px;
-
-
         height: 40vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-
+        transform: translateY(-100%);
+        transition: 0.2s ease-in-out;
         width: 100%;
-
-
-
+        z-index: 10;
     }
 
     .nav__links {
@@ -119,8 +144,7 @@ nav {
     .nav__button {
         width: 300px;
         text-align: center;
-        margin-right: 24px;
-
+        margin-right: 40px;
     }
 
     .hamburger {
@@ -139,6 +163,7 @@ nav {
 
 
         z-index: 10;
+       
     }
 
     .line {
@@ -148,6 +173,23 @@ nav {
         margin-bottom: 3px;
         border-radius: 5px;
         ;
+    }
+
+    /* dynamic class *********/
+
+    .show {
+        transform: translateY(0%);
+    
+    }
+
+    .clicked .line-1 {
+        transform: rotate(-45deg) translate(-4px, 5px);
+    
+    }
+
+
+    .clicked .line-2 {
+        transform: rotate(45deg) translate(-5px, -6px);
     }
 
 
