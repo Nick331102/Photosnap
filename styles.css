@@ -255,9 +255,8 @@ nav {
 /* Home Image Gallery Section */
 .image__gallery--home--container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
 .mountains {
     background-image: url('/assets/stories/desktop/mountains.jpg');
     min-height: 500px;
@@ -294,6 +293,13 @@ nav {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
 }
 
+.home__image--card:hover {
+    transform: translateY(2%);
+    transition: 0.2s ease-in-out
+}
+
+
+
 .home__gallery--headline,
 .author,
 .separator,
@@ -314,6 +320,46 @@ nav {
     justify-content: flex-end;
     height: 100%;
 
+}
+
+/* Features Section ***********/
+.features {
+    padding: 100px 0;
+  
+
+}
+
+.features__container {
+  display: grid;
+  grid-auto-flow: column;
+
+  gap: 40px;
+  width: 90%;
+ margin: 0 auto;
+ 
+ 
+}
+
+.feature-two {
+    margin-top: 34px;
+}
+
+.features__card {
+    max-width: 400px;
+    text-align: center;
+
+}
+
+.features__description {
+    line-height: 1.6;
+}
+
+.features__img {
+    margin-bottom: 40px;
+}
+
+.features__title {
+    margin-bottom: 20px;
 }
 
 
@@ -460,3 +506,20 @@ nav {
         min-height: 500px;
     }
 }
+@media (max-width: 811px) {
+    .features__container {
+        grid-auto-flow: row;
+        justify-items: center;
+        padding: 0 20px;
+    }
+
+    .features__card {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .feature-two {
+        margin-top: 0;
+    }
+}
+
