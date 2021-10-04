@@ -411,6 +411,7 @@ nav {
 .footer__icons--container i {
     color: white;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .footer__icons--container i:hover {
@@ -446,6 +447,109 @@ nav {
     border-bottom: 1px solid white;
     transition: 0.2s ease-in-out;
 }
+
+/*  stories page ****************/
+
+.stories__hero {
+    background-image: url('/assets/stories/desktop/moon-of-appalacia.jpg');
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.stories__hero--text--container {
+    max-width: 500px;
+    padding: 50px;
+}
+
+.featured {
+    color: var(--pure-white);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.stories__hero--headline {
+    color: var(--pure-white);
+    text-transform: uppercase;
+    font-size: clamp(1.2rem, 3vw, 3rem);
+    margin-bottom: 10px;
+}
+
+.stories__hero--date {
+    color: rgb(168, 165, 165);
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.stories__hero--description {
+    color: rgb(168, 165, 165);
+    margin-bottom: 20px;
+}
+
+
+
+.stories__hero--author {
+    color: var(--pure-white)
+}
+
+.stories__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.world {
+    background-image: url('/assets/stories/desktop/world-tour.jpg');
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
+}
+
+.corners {
+    background-image: url('/assets/stories/desktop/unforeseen-corners.jpg');
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
+}
+
+.king {
+    background-image: url("/assets/stories/desktop/king-on-africa.jpg");
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
+}
+
+.nowhere {
+    background-image: url('/assets/stories/desktop/trip-to-nowhere.jpg');
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -649,4 +753,22 @@ nav {
     }
 
 
+}
+
+
+/* Responsive Stories Hero */
+@media (max-width: 933px) {
+    .stories__hero {
+        background-image: url('/assets/stories/tablet/moon-of-appalacia.jpg')
+    }
+
+
+
+}
+
+@media (max-width: 549px) {
+    .stories__hero {
+        background-position: 65% 85%;
+
+    }
 }
