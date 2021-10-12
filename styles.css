@@ -130,7 +130,7 @@ nav {
 }
 
 .hero__image--container {
-    background-image: url('/assets/home/desktop/create-and-share.jpg');
+    background-image: url('assets/home/desktop/create-and-share.jpg');
     width: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ nav {
 
 
 .beautiful__stories--image {
-    background-image: url("/assets/home/desktop/beautiful-stories.jpg");
+    background-image: url("assets/home/desktop/beautiful-stories.jpg");
     width: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ nav {
 }
 
 .designed__image--container {
-    background-image: url('/assets/home/desktop/designed-for-everyone.jpg');
+    background-image: url('assets/home/desktop/designed-for-everyone.jpg');
     width: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@ nav {
 }
 
 .mountains {
-    background-image: url('/assets/stories/desktop/mountains.jpg');
+    background-image: url('assets/stories/desktop/mountains.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,7 +268,7 @@ nav {
 }
 
 .sunset {
-    background-image: url('/assets/stories/desktop/cityscapes.jpg');
+    background-image: url('assets/stories/desktop/cityscapes.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -278,7 +278,7 @@ nav {
 }
 
 .voyage {
-    background-image: url('/assets/stories/desktop/18-days-voyage.jpg');
+    background-image: url('assets/stories/desktop/18-days-voyage.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@ nav {
 }
 
 .arch {
-    background-image: url('/assets/stories/desktop/architecturals.jpg');
+    background-image: url('assets/stories/desktop/architecturals.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -451,7 +451,7 @@ nav {
 /*  stories page ****************/
 
 .stories__hero {
-    background-image: url('/assets/stories/desktop/moon-of-appalacia.jpg');
+    background-image: url('assets/stories/desktop/moon-of-appalacia.jpg');
     height: 550px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -501,7 +501,7 @@ nav {
 }
 
 .world {
-    background-image: url('/assets/stories/desktop/world-tour.jpg');
+    background-image: url('assets/stories/desktop/world-tour.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -510,7 +510,7 @@ nav {
 }
 
 .corners {
-    background-image: url('/assets/stories/desktop/unforeseen-corners.jpg');
+    background-image: url('assets/stories/desktop/unforeseen-corners.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -519,7 +519,7 @@ nav {
 }
 
 .king {
-    background-image: url("/assets/stories/desktop/king-on-africa.jpg");
+    background-image: url("assets/stories/desktop/king-on-africa.jpg");
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -528,7 +528,7 @@ nav {
 }
 
 .nowhere {
-    background-image: url('/assets/stories/desktop/trip-to-nowhere.jpg');
+    background-image: url('assets/stories/desktop/trip-to-nowhere.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -537,7 +537,7 @@ nav {
 }
 
 .rage {
-    background-image: url('/assets/stories/desktop/rage-of-the-sea.jpg');
+    background-image: url('assets/stories/desktop/rage-of-the-sea.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -546,7 +546,7 @@ nav {
 }
 
 .running {
-    background-image: url('/assets/stories/desktop/running-free.jpg');
+    background-image: url('assets/stories/desktop/running-free.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -555,7 +555,7 @@ nav {
 }
 
 .waves {
-    background-image: url("/assets/stories/desktop/behind-the-waves.jpg");
+    background-image: url("assets/stories/desktop/behind-the-waves.jpg");
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -565,7 +565,7 @@ nav {
 }
 
 .waters {
-    background-image: url('/assets/stories/desktop/calm-waters.jpg');
+    background-image: url('assets/stories/desktop/calm-waters.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -574,7 +574,7 @@ nav {
 }
 
 .milky {
-    background-image: url("/assets/stories/desktop/milky-way.jpg");
+    background-image: url("assets/stories/desktop/milky-way.jpg");
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -583,7 +583,7 @@ nav {
 }
 
 .forest {
-    background-image: url('/assets/stories/desktop/dark-forest.jpg');
+    background-image: url('assets/stories/desktop/dark-forest.jpg');
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -593,7 +593,7 @@ nav {
 }
 
 .beauty {
-    background-image: url("/assets/stories/desktop/somwarpet.jpg");
+    background-image: url("assets/stories/desktop/somwarpet.jpg");
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -603,7 +603,7 @@ nav {
 }
 
 .dreams {
-    background-image: url("/assets/stories/desktop/land-of-dreams.jpg");
+    background-image: url("assets/stories/desktop/land-of-dreams.jpg");
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -644,7 +644,7 @@ nav {
 }
 
 .features__hero--image--container {
-    background-image: url('/assets/features/desktop/hero.jpg');
+    background-image: url('assets/features/desktop/hero.jpg');
     width: 80%;
 
     background-position: left;
@@ -688,7 +688,7 @@ nav {
 
 .beta__container {
     padding: 50px 150px;
-    background-image: url('/assets/shared/desktop/bg-beta.jpg');
+    background-image: url('assets/shared/desktop/bg-beta.jpg');
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -745,7 +745,7 @@ nav {
 }
 
 .pricing__hero--image--container {
-    background-image: url('/assets/pricing/desktop/hero.jpg');
+    background-image: url('assets/pricing/desktop/hero.jpg');
     width: 100%;
 
     background-position: left;
@@ -1274,7 +1274,7 @@ input:checked[type='checkbox']:after {
 /* Responsive Stories Hero */
 @media (max-width: 933px) {
     .stories__hero {
-        background-image: url('/assets/stories/tablet/moon-of-appalacia.jpg')
+        background-image: url('assets/stories/tablet/moon-of-appalacia.jpg')
     }
 
 
@@ -1307,7 +1307,7 @@ input:checked[type='checkbox']:after {
 /* Responsive Features Hero */
 @media (max-width: 1200px) {
     .features__hero--image--container {
-        background-image: url('/assets/features/tablet/hero.jpg')
+        background-image: url('assets/features/tablet/hero.jpg')
     }
 }
 
@@ -1323,7 +1323,7 @@ input:checked[type='checkbox']:after {
 
 
     .features__hero--image--container {
-        background-image: url('/assets/features/mobile/hero.jpg');
+        background-image: url('assets/features/mobile/hero.jpg');
         width: 100%;
         height: 400px;
 
@@ -1386,7 +1386,7 @@ input:checked[type='checkbox']:after {
 
 
     .pricing__hero--image--container {
-        background-image: url('/assets/pricing/mobile/hero.jpg');
+        background-image: url('assets/pricing/mobile/hero.jpg');
         width: 100%;
         height: 400px;
 
